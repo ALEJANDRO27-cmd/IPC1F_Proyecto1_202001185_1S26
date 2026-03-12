@@ -9,6 +9,8 @@ public class RopaModel {
    private String nombre;
    private int cantidad;
    private Date caducidad;
+   private int precio;
+   private String categoria;
 
     public int getId() {
         return id;
@@ -41,6 +43,19 @@ public class RopaModel {
     public void setCaducidad(Date caducidad) {
         this.caducidad = caducidad;
     }
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
     
-    
+     public String getCategoria() {
+        return categoria;
+    }
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+     public int getPrecio() {
+        return precio;
+    }
+
+
 }
